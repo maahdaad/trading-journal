@@ -1,7 +1,7 @@
-const CACHE_NAME = 'journal-app-v6';
+const CACHE_NAME = 'journal-app-v7-gh-pages';
 const APP_FILES = [
   './',
-  './trading-journal.html',
+  './index.html',
   './journal.webmanifest',
   './journal-icon.svg'
 ];
@@ -28,7 +28,7 @@ self.addEventListener('fetch', event => {
         const copy = response.clone();
         caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
         return response;
-      }).catch(() => caches.match('./trading-journal.html'))
+      }).catch(() => caches.match('./index.html'))
     )
   );
 });

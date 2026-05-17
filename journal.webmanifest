@@ -2,15 +2,15 @@
   "name": "Journal",
   "short_name": "Journal",
   "description": "Trading journal for Engulf Major MTF decisions",
-  "start_url": "trading-journal.html",
-  "scope": "./",
+  "start_url": "/trading-journal/",
+  "scope": "/trading-journal/",
   "display": "standalone",
   "background_color": "#101214",
   "theme_color": "#101214",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "journal-icon.svg",
+      "src": "/trading-journal/journal-icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
